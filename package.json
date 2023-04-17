@@ -1,0 +1,20 @@
+{
+  "name": "class-manager",
+  "version": "1.0.0",
+  "description": "Manage teachers and student",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/app.js",
+    "server": "nodemon backend/app.js"
+  },
+  "author": "Jiaao Chen",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22"
+  }
+}
